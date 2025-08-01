@@ -6,6 +6,7 @@ import personRoutes from './routes/personRoutes.js';
 import menuRoutes from './routes/menuRoutes.js';
 
 
+const PORT = process.env.PORT || 3000;
 const app = express();
 app.use(bodyParser.json());
 
